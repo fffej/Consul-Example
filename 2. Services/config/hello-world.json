@@ -1,0 +1,9 @@
+{
+    "service": {
+      "name": "hello-world",
+      "port": 8000,
+      "connect": {
+          "sidecar_service": {}
+      }
+    }
+  }
