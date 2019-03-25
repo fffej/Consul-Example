@@ -30,6 +30,8 @@ agent-one  172.20.20.10:8301  alive   server  1.4.3  2         dc1  <all>
 agent-two  172.20.20.11:8301  alive   client  1.4.3  2         dc1  <default>
 ```
 
+Once your cluster is up and running, you can find things via the HTTP and DNS. See examples at https://learn.hashicorp.com/consul/#getting-started.
+
 
 
 

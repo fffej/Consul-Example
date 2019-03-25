@@ -92,7 +92,7 @@ If this has all worked then:
 
 * http://localhost:8000/ will return you a boring `{ 'hello' : 'world'}` set of data. This is coming directly from the Powershell webserver command you put in.
 
-* 127.0.0.1:9000 will return you exactly the same boring data, BUT the connection between this and your `localhost:8000` is TLS encrypted. The only thing unencrypted is the loopback-only connections.
+* http://127.0.0.1:9000 will return you exactly the same boring data, BUT the connection between this and your `localhost:8000` is TLS encrypted. The only thing unencrypted is the loopback-only connections.
 
 This is already seeming like a fair bit of work, but in the next section we'll see why this is important.
 
